@@ -1,0 +1,70 @@
+
+/*scroller stuff*/
+::-webkit-scrollbar {
+    width: 8px !important;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--modspotify_accentcolor) !important;
+}
+::-webkit-scrollbar-track {
+    background-color: var(--modspotify_thebackground) !important;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px !important;
+}
+::-webkit-scrollbar-button {
+    display: none !important;
+}
+.LeftSidebar__scroll-section::-webkit-scrollbar-thumb {
+    background-color: var(--modspotify_thebackground) !important;
+}
+.LeftSidebar__scroll-section::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+/*end scroller stuff*/
+
+/*display nones*/
+.LeftSidebarNewPlaylistButton__button,
+.upgrade-button,
+.view-player .remote-playback-bar {
+    display: none !important;
+}
+
+/*spotify css is shit*/
+#header {
+	margin-right: -8px !important;
+}
+.container.hub-page {
+	margin-top: 0% !important;
+}
+/*...and too bright*/
+.SearchInput {
+    color: white;
+	border-style: ridge;
+	border-color: var(--modspotify_accentcolor)
+}
+.SearchInput__input {
+    color: white;
+    background-color: transparent;
+    padding-left: 25px;
+    border-radius: 0;
+    border-bottom: 0;
+}
+
+/*the background colors and shit*/
+#root, #header,
+.Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay,
+.tl-header, .app-header,
+.app-content, .embedded-app, .playlist-content,
+.content-visible, .is-main-content-page-iframe {
+	background-color: var(--modspotify_thebackground) !important;
+}
+.sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist {
+	background-color: var(--modspotify_accentcolor) !important;
+}
+
+.Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
+    background-color: var(--modspotify_accentcolor);
+    padding: 10px;
+    border-radius: 5px;
+}
