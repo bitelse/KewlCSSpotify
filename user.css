@@ -49,8 +49,8 @@
 }
 .Header__background .card,
 .user-play-button .card {
-    padding: 0px;
-    background-color: transparent;
+    padding: 0px !important;
+    background-color: transparent !important;
 }
 
 /*spotify css is shit*/
