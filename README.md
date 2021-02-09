@@ -1,0 +1,2 @@
+# KewlCSSpotify
+ A spicetify theme
