@@ -47,7 +47,7 @@
     padding: 10px;
     border-radius: 5px;
 }
-.Header__background .card,
+.Header .card,
 .user-play-button .card {
     padding: 0px !important;
     background-color: transparent !important;
