@@ -1,4 +1,3 @@
-
 /*scroller stuff*/
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -30,6 +29,30 @@
     display: none !important;
 }
 
+/*the background colors and shit*/
+#root, #header,
+.Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay,
+.tl-header, .app-header,
+.app-content, .embedded-app, .playlist-content,
+.content-visible, .is-main-content-page-iframe {
+	background-color: var(--modspotify_thebackground) !important;
+}
+.sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist {
+	background-color: var(--modspotify_accentcolor) !important;
+}
+
+/* cool padding for the cards and not for then non cards. */
+.Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
+    background-color: var(--modspotify_accentcolor);
+    padding: 10px;
+    border-radius: 5px;
+}
+.Header__background .card,
+.user-play-button .card {
+    padding: 0px;
+    background-color: transparent;
+}
+
 /*spotify css is shit*/
 #header {
 	margin-right: -8px !important;
@@ -49,27 +72,4 @@
     padding-left: 25px;
     border-radius: 0;
     border-bottom: 0;
-}
-
-/*the background colors and shit*/
-#root, #header,
-.Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay,
-.tl-header, .app-header,
-.app-content, .embedded-app, .playlist-content,
-.content-visible, .is-main-content-page-iframe {
-	background-color: var(--modspotify_thebackground) !important;
-}
-.sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist {
-	background-color: var(--modspotify_accentcolor) !important;
-}
-
-/* cool padding for the cards and not for then non cards. */
-.Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
-    background-color: var(--modspotify_accentcolor);
-    padding: 10px;
-    border-radius: 5px;
-}
-.user-play-button .card {
-    padding: 0px;
-    background-color: transparent;
 }
