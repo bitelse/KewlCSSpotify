@@ -63,8 +63,13 @@
 	background-color: var(--modspotify_accentcolor) !important;
 }
 
+/* cool padding for the cards and not for then non cards. */
 .Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
     background-color: var(--modspotify_accentcolor);
     padding: 10px;
     border-radius: 5px;
+}
+.user-play-button .card {
+    padding: 0px;
+    background-color: transparent;
 }
