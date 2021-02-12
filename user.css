@@ -41,7 +41,7 @@
 }
 
 /* cool padding for the cards and not for then non cards. */
-.Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
+.Card, .Card--playlist, .Card--album, .Card--show, .genre-card, :not(.buddy-card) .card-type-show, :not(.buddy-card) .card-type-episode, :not(.buddy-card) .card-type-playlist, :not(.buddy-card) .card-type-album {
     background-color: var(--modspotify_accentcolor);
     padding: 10px;
     border-radius: 5px;
