@@ -1,3 +1,7 @@
+:root {
+	--modspotify_indicator_fg_and_button_bg: var(--modspotify_accentcolor) !important;
+	--modspotify_sidebar_indicator_and_hover_button_bg: var(--modspotify_accentcolor) !important;
+}
 /*scroller stuff*/
 ::-webkit-scrollbar {
     width: 8px !important;
@@ -77,7 +81,7 @@
 .SearchInput {
     color: white;
 	border-style: ridge;
-	border-color: var(--modspotify_accentcolor)
+	border-color: var(--modspotify_accentcolor);
 }
 .SearchInput__input {
     color: white;
@@ -87,3 +91,26 @@
     border-bottom: 0;
 }
 
+/*context menu poggers*/
+#context-menu-container .context-menu {
+	border-color: var(--modspotify_accentcolor);
+	border-style: ridge;
+	border-width: 1px;
+}
+#context-menu-container .context-menu .sep, #context-menu-container .context-menu .item.hover{
+	background-color: var(--modspotify_accentcolor);
+}
+
+/*green't controls */
+#view-player .player-controls-container .controls .button:not(.button-play) {
+    color: #c0c0c0 !important;
+}
+#view-player .player-controls-container .controls .button:not(.button-play):hover {
+    color: #D9D9D9 !important;
+}
+#view-player .player-controls-container .controls .button.active:not(.button-play) {
+    color: #FFFFFF !important;
+}
+#view-player .player-controls-container .controls .button.active:not(.button-play)::after {
+	background-color: #FFFFFF !important;
+}
