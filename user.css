@@ -49,6 +49,7 @@
 .Card--album,
 .Card--show,
 .genre-card,
+.Card--artist,
 :not(.buddy-card) .card-type-show,
 :not(.buddy-card) .card-type-episode,
 :not(.buddy-card) .card-type-playlist,
@@ -91,6 +92,9 @@
 }
 .container.hub-page {
 	margin-top: 0% !important;
+}
+.Card__image {
+	border-radius: 0px !important;
 }
 /*...and too bright*/
 .SearchInput {
