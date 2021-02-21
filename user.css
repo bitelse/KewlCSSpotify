@@ -50,6 +50,8 @@
 .Card--show,
 .genre-card,
 .Card--artist,
+.Card--track,
+.Card--episode,
 :not(.buddy-card) .card-type-show,
 :not(.buddy-card) .card-type-episode,
 :not(.buddy-card) .card-type-playlist,
@@ -58,7 +60,8 @@
     padding: 10px;
     border-radius: 5px;
 }
-.playlist-header-wrapper .glue-page-header__sticky.sticky-top .card {
+.playlist-header-wrapper .glue-page-header__sticky.sticky-top .card,
+.card-horizontal, .buddy-card .card {
     background-color: transparent !important;
     padding: 0px !important;
     border-radius: 0px !important;
@@ -66,10 +69,6 @@
 .card-info-wrapper {
 	margin-top: 0px !important;
  }
-.buddy-card .card {
-    background-color: transparent !important;
-    padding: 0px !important;
-}
 
 /*spotify css is shit*/
 #header {
@@ -93,7 +92,10 @@
 .container.hub-page {
 	margin-top: 0% !important;
 }
-.Card__image {
+.Card__image,
+.Card__overlay,
+.profile .avatar,
+.friend .user-play-button .card-image-hit-area {
 	border-radius: 0px !important;
 }
 /*...and too bright*/
