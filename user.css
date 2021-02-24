@@ -52,15 +52,21 @@
 .Card--artist,
 .Card--track,
 .Card--episode,
-:not(.buddy-card) .card-type-show,
-:not(.buddy-card) .card-type-episode,
-:not(.buddy-card) .card-type-playlist,
-:not(.buddy-card) .card-type-album {
+.card-type-show,
+.card-type-episode,
+.card-type-playlist,
+.card-type-album {
     background-color: var(--modspotify_accentcolor);
     padding: 10px;
     border-radius: 5px;
 }
-.playlist-header-wrapper .glue-page-header__sticky.sticky-top .card,
+.Header__sticky-wrapper .Card--playlist,
+.Header__sticky-wrapper .Card--album,
+.Header__sticky-wrapper .Card--show,
+.Header__sticky-wrapper .genre-card,
+.Header__sticky-wrapper .Card--artist,
+.Header__sticky-wrapper .Card--track,
+.Header__sticky-wrapper .Card--episode,
 .card-horizontal, .buddy-card .card {
     background-color: transparent !important;
     padding: 0px !important;
