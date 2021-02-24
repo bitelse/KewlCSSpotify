@@ -60,13 +60,17 @@
     padding: 10px;
     border-radius: 5px;
 }
-.Header__sticky-wrapper .Card--playlist,
-.Header__sticky-wrapper .Card--album,
-.Header__sticky-wrapper .Card--show,
-.Header__sticky-wrapper .genre-card,
-.Header__sticky-wrapper .Card--artist,
-.Header__sticky-wrapper .Card--track,
-.Header__sticky-wrapper .Card--episode,
+.sticky-top .Card--playlist,
+.sticky-top .Card--album,
+.sticky-top .Card--show,
+.sticky-top .genre-card,
+.sticky-top .Card--artist,
+.sticky-top .Card--track,
+.sticky-top .Card--episode,
+.sticky-top .card-type-show,
+.sticky-top .card-type-episode,
+.sticky-top .card-type-playlist,
+.sticky-top .card-type-album,
 .card-horizontal, .buddy-card .card {
     background-color: transparent !important;
     padding: 0px !important;
