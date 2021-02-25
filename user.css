@@ -1,6 +1,7 @@
 :root {
 	--modspotify_indicator_fg_and_button_bg: var(--modspotify_accentcolor) !important;
 	--modspotify_sidebar_indicator_and_hover_button_bg: var(--modspotify_accentcolor) !important;
+	--modspotify_main_bg: var(--modspotify_thebackground) !important;
 }
 /*scroller stuff*/
 ::-webkit-scrollbar {
@@ -33,11 +34,7 @@
 }
 
 /*the background colors and shit*/
-#root, #header, #loading,
-.Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay,
-.tl-header, .app-header,
-.app-content, .embedded-app, .playlist-content,
-.content-visible, .is-main-content-page-iframe {
+.Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay {
 	background-color: var(--modspotify_thebackground) !important;
 }
 .sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist {
@@ -105,7 +102,12 @@
 .Card__image,
 .Card__overlay,
 .profile .avatar,
-.friend .user-play-button .card-image-hit-area {
+.friend .user-play-button .card-image,
+.friend .user-play-button .card-placeholder-wrapper,
+.friend .user-play-button .card-overlay,
+.friend .user-play-button .card-button-play,
+.friend .user-play-button .card-button-play:before,
+.friend .user-play-button .card-button-play:after {
 	border-radius: 0px !important;
 }
 /*...and too bright*/
