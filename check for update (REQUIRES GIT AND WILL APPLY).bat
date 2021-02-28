@@ -1,5 +1,5 @@
-cd %userprofile%\.spicetify\Themes\KewlCSSpotify\
+cd /D "%~dp0"
 git pull
 spicetify apply
-call %userprofile%\.spicetify\Themes\KewlCSSpotify\adblocker.bat
+call adblocker.bat
 pause
