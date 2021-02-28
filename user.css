@@ -37,8 +37,14 @@
 .Header__background-overlay, .glue-page-header__background-overlay, .GlueHeader__background-overlay {
 	background-color: var(--modspotify_thebackground) !important;
 }
-.sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist {
+.sidebar-top-items, .sidebar-navbar, .LeftSidebar__scroll-section, .LeftSidebar__scroll-section .Rootlist,
+.card-horizontal > .card-horizontal-interior-wrapper:hover,
+.card-horizontal > .card-horizontal-interior-wrapper:active {
 	background-color: var(--modspotify_accentcolor) !important;
+}
+/*needed for some titles*/
+.card-info-title-text {
+	color: white;
 }
 
 /* cool padding for the cards and not for then non cards. */
@@ -52,7 +58,9 @@
 .card-type-show,
 .card-type-episode,
 .card-type-playlist,
-.card-type-album {
+.card-type-album,
+.card-type-track,
+.card-type-artist {
     background-color: var(--modspotify_accentcolor);
     padding: 10px;
     border-radius: 5px;
@@ -68,11 +76,24 @@
 .sticky-top .card-type-episode,
 .sticky-top .card-type-playlist,
 .sticky-top .card-type-album,
-.card-horizontal, .buddy-card .card {
+.sticky-top .card-type-track,
+.sticky-top .card-type-artist,
+.buddy-card .card {
     background-color: transparent !important;
     padding: 0px !important;
     border-radius: 0px !important;
 }
+.featured-item-posted-by .card {
+	padding: 0px;
+	border-radius: 0px;
+	border-width: 1px;
+	border-style: ridge;
+	border-color: white;
+}
+.featured-item__avatar {
+	border: none;
+}
+
 .card-info-wrapper {
 	margin-top: 0px !important;
  }
@@ -99,16 +120,32 @@
 .container.hub-page {
 	margin-top: 0% !important;
 }
-.Card__image,
-.Card__overlay,
 .profile .avatar,
 .friend .user-play-button .card-image,
 .friend .user-play-button .card-placeholder-wrapper,
 .friend .user-play-button .card-overlay,
 .friend .user-play-button .card-button-play,
 .friend .user-play-button .card-button-play:before,
-.friend .user-play-button .card-button-play:after {
-	border-radius: 0px !important;
+.friend .user-play-button .card-button-play:after,
+.card-type-artist .card-image,
+.card-type-artist .card-image-hit-area,
+.card-type-artist .card-overlay,
+.card-type-artist .card-placeholder-wrapper,
+.card-type-artist .card-image-link,
+.card-type-artist .card-hit-area-counter-scale,
+.card-type-collection-artist .card-image,
+.card-type-collection-artist .card-image-hit-area,
+.card-type-collection-artist .card-overlay,
+.card-type-collection-artist .card-placeholder-wrapper,
+.card-type-collection-artist .card-image-link,
+.card-type-collection-artist .card-hit-area-counter-scale,
+.card-type-user .card-image,
+.card-type-user .card-image-hit-area,
+.card-type-user .card-overlay,
+.card-type-user .card-placeholder-wrapper,
+.card-type-user .card-image-link,
+.card-type-user .card-hit-area-counter-scale {
+    border-radius: 0px;
 }
 /*...and too bright*/
 .SearchInput {
