@@ -127,25 +127,11 @@
 .friend .user-play-button .card-button-play,
 .friend .user-play-button .card-button-play:before,
 .friend .user-play-button .card-button-play:after,
-.card-type-artist .card-image,
-.card-type-artist .card-image-hit-area,
-.card-type-artist .card-overlay,
-.card-type-artist .card-placeholder-wrapper,
-.card-type-artist .card-image-link,
-.card-type-artist .card-hit-area-counter-scale,
-.card-type-collection-artist .card-image,
-.card-type-collection-artist .card-image-hit-area,
-.card-type-collection-artist .card-overlay,
-.card-type-collection-artist .card-placeholder-wrapper,
-.card-type-collection-artist .card-image-link,
-.card-type-collection-artist .card-hit-area-counter-scale,
-.card-type-user .card-image,
-.card-type-user .card-image-hit-area,
-.card-type-user .card-overlay,
-.card-type-user .card-placeholder-wrapper,
-.card-type-user .card-image-link,
-.card-type-user .card-hit-area-counter-scale {
-    border-radius: 0px;
+.Card__image,
+.Card__image-hit-area,
+.Card__overlay,
+.Card__placeholder {
+    border-radius: 0px !important;
 }
 /*...and too bright*/
 .SearchInput {
