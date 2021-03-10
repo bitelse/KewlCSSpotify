@@ -121,16 +121,17 @@
 	margin-top: 0% !important;
 }
 .profile .avatar,
-.friend .user-play-button .card-image,
-.friend .user-play-button .card-placeholder-wrapper,
-.friend .user-play-button .card-overlay,
-.friend .user-play-button .card-button-play,
-.friend .user-play-button .card-button-play:before,
-.friend .user-play-button .card-button-play:after,
+.card-button-play,
+.card-button-play:before,
+.card-button-play:after,
+.card-image,
 .Card__image,
 .Card__image-hit-area,
+.card-overlay,
 .Card__overlay,
-.Card__placeholder {
+.Card__placeholder,
+.card-placeholder-wrapper,
+.card-image-link {
     border-radius: 0px !important;
 }
 /*...and too bright*/
