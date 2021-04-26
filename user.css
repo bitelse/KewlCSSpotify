@@ -5,32 +5,32 @@
 }
 /*scroller stuff*/
 ::-webkit-scrollbar {
-    width: 8px !important;
+	width: 8px !important;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--modspotify_accentcolor) !important;
+	background-color: var(--modspotify_accentcolor) !important;
 }
 ::-webkit-scrollbar-track {
-    background-color: var(--modspotify_thebackground) !important;
+	background-color: var(--modspotify_thebackground) !important;
 }
 ::-webkit-scrollbar-thumb {
-    border-radius: 4px !important;
+	border-radius: 4px !important;
 }
 ::-webkit-scrollbar-button {
-    display: none !important;
+	display: none !important;
 }
 .LeftSidebar__scroll-section::-webkit-scrollbar-thumb {
-    background-color: var(--modspotify_thebackground) !important;
+	background-color: var(--modspotify_thebackground) !important;
 }
 .LeftSidebar__scroll-section::-webkit-scrollbar-track {
-    background-color: transparent !important;
+	background-color: transparent !important;
 }
 /*end scroller stuff*/
 
 /*display nones*/
 #new-playlist-button-mount-point,
 .upgrade-button {
-    display: none !important;
+	display: none !important;
 }
 
 /*the background colors and shit*/
@@ -61,9 +61,9 @@
 .card-type-album,
 .card-type-track,
 .card-type-artist {
-    background-color: var(--modspotify_accentcolor);
-    padding: 10px;
-    border-radius: 5px;
+	background-color: var(--modspotify_accentcolor);
+	padding: 10px;
+	border-radius: 5px;
 }
 .sticky-top .Card--playlist,
 .sticky-top .Card--album,
@@ -79,9 +79,9 @@
 .sticky-top .card-type-track,
 .sticky-top .card-type-artist,
 .buddy-card .card {
-    background-color: transparent !important;
-    padding: 0px !important;
-    border-radius: 0px !important;
+	background-color: transparent !important;
+	padding: 0px !important;
+	border-radius: 0px !important;
 }
 .featured-item-posted-by .card {
 	padding: 0px;
@@ -106,13 +106,13 @@
 	border-top: 0px;
 }
 .view-player .now-playing .cover-image-link-wrapper {
-    flex: 0 1 72px;
-    height: 72px;
+	flex: 0 1 72px;
+	height: 72px;
 }
 .view-player .now-playing .cover-image-link figure {
-    height: 72px;
-    width: 72px;
-	left: -25px;
+	height: 72px;
+	width: 72px;
+	left: -10px;
 }
 .now-playing.image-expanded .cover-image-link-wrapper {
 	display: none !important;
@@ -132,20 +132,20 @@
 .Card__placeholder,
 .card-placeholder-wrapper,
 .card-image-link {
-    border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 /*...and too bright*/
 .SearchInput {
-    color: white;
+	color: white;
 	border-style: ridge;
 	border-color: var(--modspotify_accentcolor);
 }
 .SearchInput__input {
-    color: white;
-    background-color: transparent;
-    padding-left: 25px;
-    border-radius: 0;
-    border-bottom: 0;
+	color: white;
+	background-color: transparent;
+	padding-left: 25px;
+	border-radius: 0;
+	border-bottom: 0;
 }
 
 /*context menu poggers*/
@@ -160,13 +160,13 @@
 
 /*green't controls */
 #view-player .player-controls-container .controls .button:not(.button-play) {
-    color: #c0c0c0 !important;
+	color: #c0c0c0 !important;
 }
 #view-player .player-controls-container .controls .button:not(.button-play):hover {
-    color: #D9D9D9 !important;
+	color: #D9D9D9 !important;
 }
 #view-player .player-controls-container .controls .button.active:not(.button-play) {
-    color: #FFFFFF !important;
+	color: #FFFFFF !important;
 }
 #view-player .player-controls-container .controls .button.active:not(.button-play)::after {
 	background-color: #FFFFFF !important;
